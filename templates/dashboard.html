@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, {{ username }}!</h1>
+        
+        <form id="playlist-form" onsubmit="return false;">
+            <input type="text" id="playlist-name" placeholder="Playlist Name" required>
+            <textarea id="playlist-desc" placeholder="Description"></textarea>
+            <button type="button" id="create-playlist-btn">Create Playlist</button>
+        </form>
+        
+        <div id="search-section">
+            <input type="text" id="song-search" placeholder="Search for a song...">
+            <button onclick="searchSong()">Search</button>
+            <div id="search-results"></div>
+        </div>
+
+        <div class="footer">
+            <button id="finish-btn">Finish</button>
+        </div>
+    </div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
