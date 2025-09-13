@@ -79,9 +79,5 @@ echo ".env" >> .gitignore
 - Implement genre/mood-based recommendations
 - Export playlists to JSON for backup
 
-Happy playlist crafting! 🎧☺️ 
-
-
-
 https://github.com/user-attachments/assets/a30d0f5e-60fb-479e-8344-4fdb7fe47dbb
 
