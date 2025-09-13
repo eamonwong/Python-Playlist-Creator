@@ -1,23 +1,23 @@
 # Spotify Playlist Creator 🎵
 A Python-Flask web app that lets you create and manage Spotify playlists effortlessly. Search songs, build playlists, and enjoy a seamless music curation experience—all while keeping your Spotify credentials secure.
 
-## Features ✨
-# 🎨 User-Friendly Interface
+# Features ✨
+## 🎨 User-Friendly Interface
 - Web-based dashboard for easy playlist management
 - Clean, intuitive design with Spotify's vibrant green theme
 
-# 🎧 Smart Playlist Tools
+## 🎧 Smart Playlist Tools
 - Create playlists with custom names/descriptions
 - Search & add 10 songs at once (improved from original 4)
 - One-click "Finish" to clear session without logging out
 
-# 🔐Spotify API Integration
+## 🔐Spotify API Integration
 - Secure OAuth2 Authentication using your API credentials (client ID and secret)
 - Token Management: Auto-refreshes expired tokens without user intervention
 - Scoped Permissions: Only requests playlist-modify-public and user-library-read access
 - Encrypted Sessions: All API calls use HTTPS with Spotify's encrypted endpoints
 
-# ⚡ Technical Highlights
+## ⚡ Technical Highlights
 - Handles token expiration automatically
 - Prevents duplicate playlist creation
 - Clear error messages for smooth troubleshooting
