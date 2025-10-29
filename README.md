@@ -1,5 +1,5 @@
 # Spotify Playlist Creator 🎵
-A Python-Flask web app that lets you create and manage Spotify playlists effortlessly. Search songs, build playlists, and enjoy a seamless music curation experience—all while keeping your Spotify credentials secure.
+A Python-Flask web app that lets you create and manage Spotify playlists effortlessly. Search songs, build playlists, and enjoy a seamless music curation experience, all while keeping your Spotify credentials secure! 
 
 # Features ✨
 ## 🎨 User-Friendly Interface
@@ -68,16 +68,6 @@ echo ".env" >> .gitignore
 3. Token Safety
 - Access tokens auto-expire in 1 hour
 - Refresh tokens are stored securely in server sessions
-
-# Tips & Tricks 💡
-- Playlist Limits: Spotify allows up to 10,000 songs per playlist
-- Rate Limits: The API allows ~30 requests per minute
-- Debugging: Check Flask console for token errors
-
-# Future Ideas 🌟
-- Add collaborative playlist support
-- Implement genre/mood-based recommendations
-- Export playlists to JSON for backup
 
 https://github.com/user-attachments/assets/a30d0f5e-60fb-479e-8344-4fdb7fe47dbb
 
