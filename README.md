@@ -69,7 +69,7 @@ echo ".env" >> .gitignore
 - Access tokens auto-expire in 1 hour
 - Refresh tokens are stored securely in server sessions
 
---
+---
 
 https://github.com/user-attachments/assets/a30d0f5e-60fb-479e-8344-4fdb7fe47dbb
 
